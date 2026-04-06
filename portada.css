@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
-.contenedor-tit-principal { 
+.cont-tit-main { 
+    border: 1px solid red;
     background-image: url("FOTOS-TORTAS/portada.ok.jpg");
     background-repeat: repeat-x;
     background-size:contain;
     background-position: center;
     width: 100%;
-    height: 10vw;
+    height: 15vh;
     display: flex;
     justify-content: center;
     padding-top:20px;
@@ -19,10 +20,41 @@
 .titulo {
   font-family: "Parisienne", cursive;
   font-weight: 800;
-  font-size: 3vw;
+  font-size: 3rem;
   font-style: normal;
 }
 
+
+/* ESTILOS LOGO */
+
+
+.cont-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cont-logo-lrm {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: row;
+    height: 60vh;
+    width: 33.33%;
+}
+
 img.logo {
-    width: 250px;
+    /* border: 1px solid blue; */
+    width: 50%; 
+    height: auto;
+}
+
+
+img.logo-lr {
+    width: 100%;
+    height: 100%;
+    background-size:cover ;
+    background-position: center;
 }
