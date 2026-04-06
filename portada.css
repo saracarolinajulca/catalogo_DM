@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor-tit-principal { 
+    background-image: url("FOTOS-TORTAS/portada.ok.jpg");
+    background-repeat: repeat-x;
+    background-size:contain;
+    background-position: center;
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    padding-top:20px;
+}
+
+.titulo {
+  font-family: "Parisienne", cursive;
+  font-weight: 800;
+  font-size: 3vw;
+  font-style: normal;
+}
+
+img.logo {
+    width: 250px;
+}
