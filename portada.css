@@ -5,7 +5,7 @@
 }
 
 .cont-tit-main { 
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-image: url("FOTOS-TORTAS/portada.ok.jpg");
     background-repeat: repeat-x;
     background-size:contain;
