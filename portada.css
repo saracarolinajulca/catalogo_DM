@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(254, 212, 223);
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -6,7 +10,7 @@
 
 .cont-tit-main { 
     /* border: 1px solid red; */
-    background-image: url("FOTOS-TORTAS/logo.png");
+    background-image: url("FOTOS-TORTAS/portada.ok.jpg");
     background-repeat: repeat-x;
     background-size:contain;
     background-position: center;
@@ -58,3 +62,45 @@ img.logo-lr {
     background-size:cover ;
     background-position: center;
 }
+
+/*estilos de sub titulo*/
+
+.catalogo {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+    
+.tortas {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing:  3px;
+    font-size: 50px;
+}
+ 
+  .anio {
+      
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing:  3px;
+    font-size: 30px;
+
+    }
+
+.catalogo-tortas {
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+   }
+
+   .tortas{
+
+    width:250px;
+   
+   }
+
+   .tortas img{
+    width: 100%;
+
+
+   }
