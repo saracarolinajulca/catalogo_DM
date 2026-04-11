@@ -34,19 +34,20 @@ body{
 
 .cont-logo {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 1px solid rgb(95, 12, 238); 
+    /* justify-content: center;
+    align-items: center; */
 
 }
 
 .cont-logo-lrm {
-    /* border: 1px solid red; */
-    display: flex;
-    align-items: center;
+    border: 1px solid rgb(172, 234, 15); 
+    /* display: flex; */
+    /* align-items: center;
     justify-content: center; 
-    flex-direction: row;
+    flex-direction: row; */
     height: 60vh;
-    width: 33.33%;
+    width: 100%;
 }
 
 img.logo {
@@ -65,27 +66,46 @@ img.logo-lr {
 
 /*estilos de sub titulo*/
 
-.catalogo {
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 3px;
+/* contenedores */ 
+
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px red;
 }
+
+
+/* catalogo */ 
+
+
+.catalogo {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* tortas*/ 
     
 .tortas {
-    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing:  3px;
-    font-size: 50px;
+    font-size: 70px;
+    
 }
  
-  .anio {
-      
-    text-align: center;
+/* anio */ 
+
+.anio {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing:  3px;
     font-size: 30px;
+}
 
-    }
+
+
 
 .catalogo-tortas {
      display: flex;
@@ -95,8 +115,8 @@ img.logo-lr {
 
    .tortas{
 
-    width:250px;
-   
+    width:33.33%;
+    border: solid 1px red;
    }
 
    .tortas img{
@@ -104,3 +124,8 @@ img.logo-lr {
 
 
    }
+   .catalogo-tortas{
+
+     display: flex;
+   }
+
