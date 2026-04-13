@@ -34,20 +34,21 @@ body{
 
 .cont-logo {
     display: flex;
-    border: 1px solid rgb(95, 12, 238); 
+    /* border: 1px solid rgb(95, 12, 238); */
+    flex-direction: row;
+    flex-wrap: wrap;
     /* justify-content: center;
     align-items: center; */
 
 }
 
 .cont-logo-lrm {
-    border: 1px solid rgb(172, 234, 15); 
+    /* border: 1px solid rgb(118, 255, 33);  */
     /* display: flex; */
-    /* align-items: center;
-    justify-content: center; 
-    flex-direction: row; */
+    /* align-items: center; */
+    /* justify-content: center;  */
     height: 60vh;
-    width: 100%;
+    width: 50%;
 }
 
 img.logo {
@@ -73,7 +74,7 @@ img.logo-lr {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 
@@ -89,13 +90,8 @@ img.logo-lr {
 
 /* tortas*/ 
     
-.tortas {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    letter-spacing:  3px;
-    font-size: 70px;
-    
-}
- 
+
+
 /* anio */ 
 
 .anio {
@@ -105,27 +101,60 @@ img.logo-lr {
 }
 
 
-
-
-.catalogo-tortas {
-     display: flex;
-     justify-content: center;
-     gap: 30px;
-   }
-
-   .tortas{
-
-    width:33.33%;
-    border: solid 1px red;
-   }
-
    .tortas img{
     width: 100%;
+   } 
 
 
-   }
-   .catalogo-tortas{
-
+  /* contenedor principal productos*/
+ 
+   .catalogo-tortas {
      display: flex;
-   }
+     justify-content: center;
+     /* border: solid 1px blue; */
+     flex-wrap: wrap;
+    } 
 
+    /* contenedor productos */ 
+
+    .tortas {
+      /* border: 1px solid green; */
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      letter-spacing:  3px;
+      font-size: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      width: 33.33%;
+      max-height: 150px;
+      flex-direction: column;
+      padding: 30px;
+
+    }
+
+  /* Partes del productos */ 
+
+  .productoImagen {
+    max-width: 60%;
+    height: 30vh;
+    border-radius: 10PX;;
+  }
+
+  .productoNombre{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .productoDescripcion {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .productoPrecio {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+  }
