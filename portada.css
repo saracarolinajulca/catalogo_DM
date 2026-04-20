@@ -15,7 +15,7 @@ body{
     background-size:contain;
     background-position: center;
     width: 100%;
-    height: 15vh;
+    height: 22vh;
     display: flex;
     justify-content: center;
     padding-top:20px;
@@ -29,13 +29,14 @@ body{
 }
 
 
+   
 /* ESTILOS LOGO */
 
 
 .cont-logo {
     display: flex;
     /* border: 1px solid rgb(95, 12, 238); */
-    flex-direction: row;
+    flex-direction:row;
     flex-wrap: wrap;
     /* justify-content: center;
     align-items: center; */
@@ -74,30 +75,44 @@ img.logo-lr {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: solid 1px red; */
+    /* border: solid 1px red;  */
 }
-
 
 /* catalogo */ 
 
 
 .catalogo {
-    font-family: "Limelight", sans-serif;
+    font-family:.playfair-<uniquifier> 
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 60px;
+    position: relative;
+    top: -80;
 }
 
 /* tortas*/ 
     
-
+.torta-portada{
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+}
 
 /* anio */ 
 
 .anio {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing:  3px;
-    font-size: 30px;
+    font-size: 20px;
+
 }
 
 
@@ -127,7 +142,6 @@ img.logo-lr {
       align-items: center;
       gap: 30px;
       width: 33.33%;
-      max-height: 150px;
       flex-direction: column;
       padding: 30px;
 
@@ -144,17 +158,26 @@ img.logo-lr {
   .productoNombre{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
   }
 
-  .productoDescripcion {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 40px;
-  }
-
-  .productoPrecio {
+   .productoPrecio {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
+    font-size: 25px;
   }
+ .contenedor{
+    text-align: center;
+    
+ }
+  
+ /* estilos del logo */
+ .logo-png{
+    position: absolute;
+    top: 180px;
+    width: 180px;
+    left: 50%;
+    display: block;
+    transform: translateX(-50%);
+    z-index: 10;
+ }
