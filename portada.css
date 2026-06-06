@@ -158,9 +158,11 @@ img.logo-lr {
 
   .productoNombre{
     font-family:  "Niconne", cursive;
+    font-style: normal;
+    font-weight:200;
+    font-size:30px;
+  
     text-align: center;
-    font-size: 20px;
-    color: black;
   }
 
    .productoPrecio {
