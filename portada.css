@@ -109,9 +109,9 @@ img.logo-lr {
 /* anio */ 
 
 .anio {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:  "font-family: "Style Script", cursive;
     letter-spacing:  3px;
-    font-size: 20px;
+    font-size: 35px;
 
 }
 
@@ -142,6 +142,7 @@ img.logo-lr {
       align-items: center;
       gap: 30px;
       width: 33.33%;
+     
       flex-direction: column;
       padding: 30px;
 
@@ -152,19 +153,30 @@ img.logo-lr {
   .productoImagen {
     max-width: 60%;
     height: 30vh;
-    border-radius: 10PX;;
+    border-radius: 10PX;
   }
 
   .productoNombre{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  "Niconne", cursive;
     text-align: center;
     font-size: 20px;
+    color: black;
   }
 
    .productoPrecio {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    color: #000; 
+    font-weight: bold;
+  }
+
+  .productoDESCRI {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: cadetblue;
+    font-width: bold;
   }
  .contenedor{
     text-align: center;
