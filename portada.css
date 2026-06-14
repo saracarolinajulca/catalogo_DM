@@ -145,8 +145,9 @@ img.logo-lr {
       flex-direction: column;
       flex: 1;
       position: relative;
-      /* padding: 30px; */
-      padding: 20px;
+      padding: 50px; 
+      /* gap: 10px; */
+
     }
 
   /* Partes del productos */ 
