@@ -318,7 +318,28 @@ img.logo-lr {
 
 
  /* RESPONSIVIDAD */ 
+ .footerDM {
+    background: #6B4F4F;
+    color: white;
+    font-family: "Parisienne", cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
+    padding: 30px 90px;
+    margin-top: 60px;
+
+    min-height: 200px;
+}
+ 
+    .redes img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-top: 80px;
+     
+}
 
  @media (max-width: 768px) {
 
@@ -385,9 +406,7 @@ img.logo-lr {
     text-align: center;
   }
   
- }
 
-
-
+  
 
 
