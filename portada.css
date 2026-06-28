@@ -75,7 +75,8 @@ img.logo-lr {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: solid 1px red;  */
+    border: solid 1px red;
+    text-align: center;
 }
 
 /* catalogo */ 
@@ -210,12 +211,6 @@ img.logo-lr {
   }
 
 
-
- .contenedor{
-    text-align: center;
-    
- }
-  
  /* estilos del logo */
  .logo-png{
     position: absolute;
@@ -223,7 +218,7 @@ img.logo-lr {
     width: 180px;
     left: 50%;
     display: block;
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
     z-index: 10;
  }
  
@@ -279,25 +274,20 @@ img.logo-lr {
   background-color: white;
   width: 90%;
   max-width: 450px;
-
   padding: 25px;
   border-radius: 12px;
-
   position: relative;
   text-align: center;
-
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
+  }
 
 /* Botón X para cerrar */
 .cerrarModal {
   position: absolute;
   top: 10px;
   right: 15px;
-
   border: none;
   background: none;
-
   font-size: 30px;
   cursor: pointer;
 }
@@ -417,8 +407,7 @@ img.logo-lr {
     align-items: center;
     text-align: center;
   }
-  
-
-  
+    
  }
 
+ }
